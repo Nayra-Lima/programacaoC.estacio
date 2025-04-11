@@ -10,8 +10,8 @@ int main () {
 // declaração de variáveis, algumas regras: não se inicia uma variável com números,(somente letras e _)
 // maisculo e minusculo definem variáveis diferentes. Não se usa palavras reservadas, como int, main...
 
-    printf("A idade do %s é: %d\n", nome, idade); // /n é para pular linha
-    printf("A altura é: %.2f\n", altura);
+    printf("A idade de %s é: %d\n", nome, idade); // (formato,variável)
+    printf("A altura é: %.2f\n", altura);// /n é para pular linha
     printf("O peso é: %.2f\n", peso);
     printf("O nome é: %s\n", nome);
 
@@ -24,4 +24,7 @@ int main () {
 %c = imprime um unico caractere
 %s = imprime uma cadeia de caracteres
 */
+   
+
+
 }
